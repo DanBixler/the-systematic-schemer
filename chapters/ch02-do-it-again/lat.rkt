@@ -42,7 +42,11 @@
 ;; --- Tests (using Rackunit for #lang racket) ---
 
 (module+ test
-  (test-case "Testing lat?"
+  (define lat-tests
+    (test-suite
+     "Testing lat?"
     (check-true  (lat? '(bacon lettuce tomato)))
     (check-false (lat? '(bacon (lettuce) tomato)))
     (check-true  (lat? '()))))
+
+  (run-tests lat-tests))
