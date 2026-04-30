@@ -2,7 +2,7 @@
 
 
 
-\# The Philosophy
+## The Philosophy
 
 
 
@@ -10,7 +10,7 @@ This repository represents a deliberate approach to learning functional programm
 
 
 
-\# Why this approach?
+## Why this approach?
 
 
 
@@ -26,7 +26,7 @@ I believe that applying HtDP to the "Schemer" exercises is valuable because it t
 
 
 
-\# How to Run
+## How to Run
 
 
 
@@ -34,6 +34,6 @@ I am using Racket for this project.
 
 
 
-* Dr Racket: Open any file and click \*\*Run\*\*. I use module+ test with a text-based runner to provide feedback in the interactions window.
-* Command Line: Run raco test .  from the root directory to execute the entire test suite.
+* Dr Racket: Open any file and click **Run**. I use module+ test with a text-based runner to provide feedback in the interactions window.
+* Command Line: Run `raco test .`  from the root directory to execute the entire test suite.
 
